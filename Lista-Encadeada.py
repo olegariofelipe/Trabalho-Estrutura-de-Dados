@@ -77,3 +77,4 @@ print('\nSequência de Fichas:')
 while nodo_atual is not None:
     print(f"Ficha nº {nodo_atual.dado}, Cor: {nodo_atual.cor}")
     nodo_atual = nodo_atual.proximo
+print(".")
